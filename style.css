@@ -1,0 +1,26 @@
+.feu{
+    position: absolute;
+    margin-left: 1089px;
+    margin-top: 495px;
+}
+.cheminer{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 50px;
+}
+        p {
+          text-align: end;
+          font-size: 60px;
+        }
+        .swing {
+        animation: swing ease-in-out 1s infinite alternate;
+        transform-origin: center -100px;
+        float:left;
+        }
+@keyframes swing {
+    0% { transform: rotate(1deg); }
+    100% { transform: rotate(-1deg); }
+}
+body{
+    background-image: url("IMG/papier");
+}
